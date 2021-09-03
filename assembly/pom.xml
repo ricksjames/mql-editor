@@ -29,11 +29,6 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.code.gwtx</groupId>
-      <artifactId>gwtx</artifactId>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
       <groupId>org.pentaho</groupId>
       <artifactId>commons-gwt-widgets</artifactId>
       <classifier>sources</classifier>
@@ -45,6 +40,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>gwt-maven-plugin</artifactId>
+        <version>${gwt.version}</version>
         <executions>
           <execution>
             <goals>
